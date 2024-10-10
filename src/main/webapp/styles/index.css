@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.4em;
+	color: green;
+}
+
+nav {
+	width: 100vw;
+	padding: 12px;
+	background-color: #f0f0f0;
+}
+
+nav>a {
+	background-color: #f0f0f0;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 80vh;
+}
+
+.container {
+	background-color: #f0f0f0;
+	padding: 12px;
+	border-radius: 8px;
+	max-width: 500px;
+	max-height: 500px;
+}
+
+button {
+	padding: 8px 12px;
+	border-radius: 8px;
+	color: white;
+	background-color: green;
+	border: none;
+}
+
+button:hover {
+	background-color: lightgreen;
+}
+
+input[type="submit"] {
+	padding: 8px 12px;
+	border-radius: 8px;
+	background-color: green;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="text"] {
+	padding: 4px 8px;
+	border-radius: 8px;
+	background-color: white;
+	color: green;
+	border: 1px solid green;
+}
+
+input[type="date"] {
+	border: 1px solid green;
+}
+
+textarea {
+	padding: 4px 8px;
+	border-radius: 8px;
+	background-color: white;
+	color: green;
+	border: 1px solid green;
+}
+
+#tabela {
+	margin-top: 24px;
+	border-radius: 8px;
+	border-collapse: collapse;
+}
+
+#tabela th {
+	border: 1px solid #ddd;
+	padding: 10px;
+	text-align: left;
+	background-color: green;
+	color: white;
+}
+
+#tabela td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+button.delete {
+	background-color: red;
+	color: white;
+}
+
+button.delete {
+	background-color: lightred;
+}
